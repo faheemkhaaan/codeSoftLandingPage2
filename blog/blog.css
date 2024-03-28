@@ -47,8 +47,6 @@ header .logo img{
 }
 
 
-/* ***************************************hero section *************************** */
-
 .hero{
     height: 50vh;
     text-align: center;
@@ -80,107 +78,86 @@ header .logo img{
     color: white;
     border-radius: 2px;
 }
-.hero .img{
-    margin-top: 4rem;
+
+
+.all-posts{
+    margin: 2rem 0;
+    padding: 3rem;
+    display: grid;
+    gap: 3rem;
+
 }
-.hero .img img{
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+}
+.post > div{
+    flex-basis: 1;
+}
+.post-img {
+    width: 37%;
+    height: 100%;
+}
+.post-img img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
-
-
-
-
-.contact-section{
+.post-info{
+    width: 55ch;
+    height: 100%;
+    padding: 0 2rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-}
-.contact-img{
-    position: relative;
-}
-.contact-img h1{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    background-color: white;
-    padding: 2rem ;
-    border-radius: 5px;
-    font-size: 2.5rem;
-    color: #371401;
-}
-.contact-info{
-    display: flex;
-    justify-content: space-evenly;
-    gap:  3rem;
-    color: #371401;
-    width: 100%;
-    padding: 0 5rem;
-}
-.contact-info div h2{
-    margin: 1rem 0;
-}
-.contact-info div p{
-    line-height: 25px;
-}
-.contact-info *{
-    /* flex: 1; */
+    margin: 2rem 0;
 }
 
-
-.contact-form{
-    /* height: 55vh; */
+.admin-info{
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 4rem 1rem;
-    gap: 10px;
-    border: 2px solid #60422e;
-    margin: 0 10rem;
-    border-radius: 4px;
-    margin-top: 2rem;
+    color: #371401;
 }
-.contact-form form{
-    display: flex;
-    flex-wrap: wrap;
+.admin-email{
+    flex-basis: 90%;
 }
-.contact-form form div{
-    flex-basis: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 20vh;
-    padding: 1rem 0;
-}
-.contact-form form div input{
-    border: none;
-    border-bottom: 2px solid #3e1d06;
-    outline: none;
-    padding: .4rem .5rem;
-}
-.contact-form form div textarea{
-    border: none;
-    border-bottom: 2px solid #3e1d06;
-    outline: none;
-}
-.contact-form form button{
-    padding: .6rem 1rem;
-    background-color: #a05222;
-    width: 100px;
-    border: none;
-    color: white;
+.admin-info-menu {
+    line-height: 5px;
+    font-weight: 600;
     cursor: pointer;
 }
-.contact-form form div:nth-child(1),
-.contact-form form div:nth-child(2){
-    flex-basis: 50%;
+
+
+
+.post-description{
+    margin: 1rem 0;
+    height: 80%;
+}
+.post-description h2{
+    margin-bottom: 1rem;
+    color: #371401;
+}
+.post-description p {
+    line-height: 1.3rem;
 }
 
-/* ____________________________________________________foooter */
+
+
+.post-reactions{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.post-reactions p:nth-child(1){
+    flex-basis:15%;
+}
+.post-reactions p:nth-child(2){
+    flex-basis:80%;
+}
+.post-reactions i{
+    cursor: pointer;
+}
+
 
 
 footer{
@@ -194,7 +171,7 @@ footer > div{
     /* width: 100px; */
     text-align: center;
     padding: 0 4rem;
-    border-right: 1px solid #816d66
+    border-right: 2px solid #816d66
     
 }
 footer > div h2{
@@ -236,3 +213,4 @@ footer > div:nth-child(3) form button{
     width: 30px;
     margin: 0 .5rem;
 }
+

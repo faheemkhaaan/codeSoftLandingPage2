@@ -80,109 +80,98 @@ header .logo img{
     color: white;
     border-radius: 2px;
 }
-.hero .img{
-    margin-top: 4rem;
+
+
+
+
+
+.about-ourServices{
+    padding: 4rem 10rem;
 }
-.hero .img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.about-ourServices h2{
+    color: #371401;
+    font-size: 2.8rem;
+    padding: 2rem 0;
+}
+.about-ourServices p{
+    padding-right: 10rem;
+    line-height: 1.8rem;
 }
 
-
-
-
-.contact-section{
+.services-card *{
+    /* outline: 1px solid red; */
+}
+.services-card{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    background-color: #f3e5f3;
+    padding: 2rem 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 0 2rem;
 }
-.contact-img{
+.card{
     position: relative;
 }
-.contact-img h1{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+.card-content{
+    width: 300px;
     background-color: white;
-    padding: 2rem ;
-    border-radius: 5px;
-    font-size: 2.5rem;
-    color: #371401;
+    position: relative;
+    left: 20px;
+    top: -80px;
+    padding: 2rem 1rem;
 }
-.contact-info{
-    display: flex;
-    justify-content: space-evenly;
-    gap:  3rem;
-    color: #371401;
-    width: 100%;
-    padding: 0 5rem;
-}
-.contact-info div h2{
-    margin: 1rem 0;
-}
-.contact-info div p{
-    line-height: 25px;
-}
-.contact-info *{
-    /* flex: 1; */
+.card-content h3{
+    padding: 1rem 0;
 }
 
 
-.contact-form{
-    /* height: 55vh; */
+
+.quote{
+    margin: 2rem ;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4rem 1rem;
+    padding: 2rem 0;
+    background-color: #f3e5f3;
+}
+.quote-title {
+    margin-bottom: 2rem;
+}
+.quote-title h3{
+    padding: 2rem 0;
+}
+
+.quote form{
+    display: flex;
+    justify-content: left;
+    align-items: center;
     gap: 10px;
-    border: 2px solid #60422e;
-    margin: 0 10rem;
-    border-radius: 4px;
-    margin-top: 2rem;
 }
-.contact-form form{
-    display: flex;
-    flex-wrap: wrap;
-}
-.contact-form form div{
-    flex-basis: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 20vh;
-    padding: 1rem 0;
-}
-.contact-form form div input{
+.quote form .input input{
     border: none;
-    border-bottom: 2px solid #3e1d06;
     outline: none;
-    padding: .4rem .5rem;
+    border-bottom: 2px solid #381400;
+    margin: 2rem 0;
+    padding: .8rem .2rem;
+    font-size: 1.1rem;
+    background-color: transparent;
 }
-.contact-form form div textarea{
+.quote form .input label{
+    display: block;
+}
+.quote form button{
+    padding: .8rem .6rem;
+    width: 140px;
+    height: 40px;
     border: none;
-    border-bottom: 2px solid #3e1d06;
-    outline: none;
-}
-.contact-form form button{
-    padding: .6rem 1rem;
     background-color: #a05222;
-    width: 100px;
-    border: none;
     color: white;
+    border-radius: 4px;
     cursor: pointer;
+
 }
-.contact-form form div:nth-child(1),
-.contact-form form div:nth-child(2){
-    flex-basis: 50%;
-}
-
-/* ____________________________________________________foooter */
-
-
 footer{
     height: 40vh;
     display: flex;
