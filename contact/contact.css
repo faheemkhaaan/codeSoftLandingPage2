@@ -236,3 +236,58 @@ footer > div:nth-child(3) form button{
     width: 30px;
     margin: 0 .5rem;
 }
+
+
+
+
+@media (max-width: 950px) {
+    *{
+        /* outline: 1px solid red; */
+    }
+
+    header .navBar ul li {
+        margin: 0 5px;
+    }
+    header .navBar ul li a {
+        margin: 0 0px;
+    }
+
+    .hero {
+        padding: 3rem 0;
+    }
+
+
+    .contact-section {
+        overflow: hidden;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: space-evenly;
+        gap: .5rem;
+        color: #371401;
+        width: 100%;
+        padding: 0 .5rem;
+        margin: 2rem 0;
+    }
+
+    .contact-form {
+        padding: 0 1rem;
+        gap: 40px;
+        margin: 0 1rem;
+        flex-direction: column;
+    }
+
+    footer > div {
+        padding: 0 0rem;
+
+    }
+
+    footer > div h2{
+        font-size: 1.2rem;
+    }
+
+    footer {
+        height: 30vh;
+    }
+}

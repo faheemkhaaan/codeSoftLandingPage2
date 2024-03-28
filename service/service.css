@@ -225,3 +225,70 @@ footer > div:nth-child(3) form button{
     width: 30px;
     margin: 0 .5rem;
 }
+
+
+
+
+
+
+@media (max-width: 950px) {
+    *{
+        /* outline: 1px solid red; */
+    }
+
+    header .navBar ul li {
+        margin: 0 5px;
+    }
+    header .navBar ul li a {
+        margin: 0 0px;
+    }
+
+    .hero {
+        padding: 3rem 0;
+    }
+
+    .about-ourServices {
+        padding: 4rem 1rem;
+    }
+
+    .about-ourServices p {
+        padding-right: 0rem;
+    }
+    .quote {
+        padding: 2rem;
+        background-color: #f3e5f3;
+    }
+    .quote form {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 5px;
+        flex-direction: column;
+    }
+    .quote form div {
+        width: 100%;
+    }
+    .quote form div label{
+        display: inline-block;
+    }
+    .quote form div input{
+        width: 100%;
+    }
+
+    .services-card {
+        gap: 0rem;
+    }
+
+    footer > div {
+        padding: 0 0rem;
+
+    }
+
+    footer > div h2{
+        font-size: 1.2rem;
+    }
+
+    footer {
+        height: 30vh;
+    }
+}

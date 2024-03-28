@@ -153,3 +153,37 @@ footer > div:nth-child(3) form button{
     margin: 0 .5rem;
 }
 
+
+
+
+
+
+@media (max-width: 950px) {
+    *{
+        /* outline: 1px solid red; */
+    }
+
+    header .navBar ul li {
+        margin: 0 5px;
+    }
+    header .navBar ul li a {
+        margin: 0 0px;
+    }
+
+    .hero {
+        padding: 3rem 0;
+    }
+
+    footer > div {
+        padding: 0 0rem;
+
+    }
+
+    footer > div h2{
+        font-size: 1.2rem;
+    }
+
+    footer {
+        height: 30vh;
+    }
+}

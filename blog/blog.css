@@ -214,3 +214,56 @@ footer > div:nth-child(3) form button{
     margin: 0 .5rem;
 }
 
+
+
+@media (max-width: 950px) {
+    *{
+        /* outline: 1px solid red; */
+    }
+
+    header .navBar ul li {
+        margin: 0 5px;
+    }
+    header .navBar ul li a {
+        margin: 0 0px;
+    }
+
+    .hero {
+        padding: 3rem 0;
+    }
+    .all-posts {
+        gap: 2rem;
+    }
+    .post {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: max-content;
+    }
+    .post-img {
+        width: 100%;
+    }
+
+    .post-info {
+        /* width: 55ch; */
+        height: 100%;
+        padding: 0 0rem;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+        justify-content: left;
+    }
+    footer > div {
+        padding: 0 0rem;
+
+    }
+
+    footer > div h2{
+        font-size: 1.2rem;
+    }
+
+    footer {
+        height: 30vh;
+    }
+}
