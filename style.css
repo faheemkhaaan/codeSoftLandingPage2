@@ -321,6 +321,9 @@ footer>div:nth-child(3) form button {
     header .navBar ul li {
         margin: 20px 0px;
     }
+    header .navBar ul li a {
+        font-size: 1.5rem;
+    }
     
     .hambuger {
         display: block;
@@ -330,6 +333,26 @@ footer>div:nth-child(3) form button {
     }
     .visible{
         display: flex;
+    }
+    .cross{
+        background-color: white;
+    }
+    .cross .line{
+        transform-origin: center;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        /* transition: .4s ease-in-out; */
+        width: 20px;
+    }
+    .cross .line:nth-child(1){
+        transform: rotateZ(45deg);
+    }
+    .cross .line:nth-child(3){
+        transform: rotateZ(-45deg);
+    }
+    .cross .line:nth-child(2){
+        display: none;
     }
 
     header {
