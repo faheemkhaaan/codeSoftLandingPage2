@@ -300,15 +300,35 @@ footer>div:nth-child(3) form button {
     * {
         /* outline: 1px solid red; */
     }
+   
     .navBar {
         display: none;
+        position: fixed;
+        background-color: white;
+        right: 0px;
+        top: 0px;
+        height: 100vh;
     }
 
+    header .navBar ul {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        list-style: none;
+        flex-direction: column;
+    }
+    header .navBar ul li {
+        margin: 20px 0px;
+    }
+    
     .hambuger {
         display: block;
         position: absolute;
         right: 20px;
         top: 10px;
+    }
+    .visible{
+        display: flex;
     }
 
     header {
@@ -356,6 +376,7 @@ footer>div:nth-child(3) form button {
         justify-content: center;
         padding: 1rem 1.5rem;
         flex-direction: column;
+        overflow: hidden;
     
     }
     .features-img img {
