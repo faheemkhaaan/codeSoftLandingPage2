@@ -299,6 +299,13 @@ footer > div:nth-child(3) form button{
     }
     .visible{
         display: flex;
+        transform: translateX(250px);
+        animation: slideLeft .2s linear  1 forwards;
+    }
+    @keyframes slideLeft {
+        to{
+            transform: translateX(0);
+        }
     }
     .cross{
         background-color: white;
@@ -381,7 +388,8 @@ footer > div:nth-child(3) form button{
         height: 100%;
         padding: 1rem 0rem;
     }
-
+    .product-quantity{
+    }
     footer {
         display: flex;
         align-items: center;

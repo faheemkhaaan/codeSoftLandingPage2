@@ -359,14 +359,14 @@ footer > div:nth-child(3) form button{
       padding: 0 1rem;
     }
     header .logo {
-        flex-basis: 0%;
+        /* flex-basis: 0%; */
 
     }
-    
+     
 
     .hero{
         overflow: hidden;
-        height: 45vh;
+        height: 50vh;
     }
     .hero h1 {
         font-size: 3rem;
