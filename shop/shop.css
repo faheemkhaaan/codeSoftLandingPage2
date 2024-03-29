@@ -90,6 +90,17 @@ header .logo img{
     padding: 4rem 0;
     flex-wrap: wrap;
     margin: 0 2rem;
+
+}
+.prodcut{
+    position: relative;
+}
+.product-view{
+    /* outline: 1px solid red; */
+    position: absolute;
+    inset: 0;
+    bottom: 70px;
+    z-index: 5;
 }
 
 .product-info h3{
@@ -97,6 +108,50 @@ header .logo img{
 }
 .product-info p{
     color: #371401;
+}
+
+.single-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0;
+    height: 63vh;
+}
+.single-product > div{
+    flex-basis: 1;
+}
+.single-product > div:nth-child(1) img{
+    width: 400px;
+}
+.single-product > div:nth-child(2){
+    width: 40vw;
+    height: 100%;
+    padding: 0 2rem;
+}
+.single-product > div:nth-child(2) h2{
+    padding-bottom: 1rem;
+}
+.single-product > div:nth-child(2) p {
+    padding: .5rem 0;
+}
+.single-product > div:nth-child(2) input {
+    margin:  1rem 0;
+    width: 50px;
+    padding: .6rem;
+    outline: none;
+    border: 1px solid #371401;
+}
+.single-product > div:nth-child(2) button{
+    padding: .6rem .4rem;
+    width: 200px;
+    background-color: #a05222;
+    border: none;
+    color: white;
+}
+
+.product-quantity{
+    display: flex;
+    flex-direction: column;
 }
 
 footer{
