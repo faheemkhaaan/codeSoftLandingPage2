@@ -296,7 +296,9 @@ footer > div:nth-child(3) form button{
         /* outline: 1px solid red; */
     }
 
-    
+    body{
+        overflow-x: hidden;
+    }
     .navBar {
         display: none;
         position: fixed;
@@ -334,6 +336,7 @@ footer > div:nth-child(3) form button{
     .cross{
         background-color: white;
         z-index: 3;
+        position: fixed;
     }
     .cross .line{
         transform-origin: center;

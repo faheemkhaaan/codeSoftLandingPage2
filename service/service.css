@@ -355,6 +355,7 @@ footer > div:nth-child(3) form button{
     .cross{
         background-color: white;
         z-index: 3;
+        position: fixed;
     }
     .cross .line{
         transform-origin: center;
